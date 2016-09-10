@@ -1,0 +1,163 @@
+/* intro3 */
+
+#intro3 {
+    background-color: #0074d9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    color: #fff;
+    margin-top: -125px;
+    margin-bottom: -125px;
+    z-index: 100;
+    position: relative;
+}
+
+#intro3 h2,
+#intro3 h3,
+#intro3 h5 {
+    padding-top: 20%;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+#intro3 h3 {
+    text-transform: uppercase;
+}
+
+#intro3 h5 {
+    font-weight: bold;
+}
+
+#intro3 h2 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+#intro3 p {
+    float: right;
+    clear: both;
+}
+
+
+/* intro11 */
+
+#intro11 {
+    background-image: url(../images/house_culex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 260px 0;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: -125px;
+}
+
+#intro11:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #002f4b, #fff);
+    opacity: .6;
+}
+
+#intro11 .container {
+    position: relative;
+}
+
+#intro11 h3 {
+    font-weight: 700;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 90px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #000;
+}
+
+#intro11 p {
+    font-weight: 300;
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 60px auto;
+    font-size: 30px;
+}
+
+#intro11 p.slogan {
+    letter-spacing: 14px;
+}
+
+#intro11 span.green {
+    color: #62b151;
+}
+
+#intro11 #scrolldown {
+    bottom: 0;
+    margin-top: 80px;
+    height: 100px;
+    margin-left: -50px;
+    left: 50%;
+    text-align: center;
+    width: 100px;
+}
+
+#intro11 #scrolldown span {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+    color: #fff;
+    margin: 0 auto;
+    position: absolute;
+    left: 7px;
+}
+
+#intro11 .mouse {
+    border: 2px solid #fff;
+    border-radius: 13px;
+    display: block;
+    height: 46px;
+    left: 50%;
+    margin: 10px 0 0 -13px;
+    position: absolute;
+    width: 26px;
+}
+
+#intro11 .mouse span {
+    display: block;
+    font-size: 1.5em;
+    margin: 6px auto;
+}
+
+@-webkit-keyframes scroll {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+}
