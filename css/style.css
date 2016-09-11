@@ -141,6 +141,8 @@
         border-radius: 40px;
         padding: 12px 24px;
         border: 1px solid #b7b7b7;
+        opacity: .8;
+        min-width: 250px;
     }
     
     .btn-default:hover {
@@ -256,6 +258,34 @@
         border: 1px solid #62b151;
         color: #fff;
         background: transparent;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    .btn-blue-portfolio-transparent {
+        border-radius: 2px !important;
+        background: transparent;
+        padding: 8px 24px;
+        border: 1px solid #0074d9;
+        color: #0074d9;
+    }
+    
+    .btn-blue-portfolio-transparent:hover {
+        border: 1px solid #0074d9;
+        color: #fff;
+        background: #0074d9;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    .btn-blue-portfolio-transparent:focus {
+        border: 1px solid #0074d9;
+        color: #fff;
+        background: #0074d9;
         -webkit-transition: all 0.5s ease;
         -moz-transition: all 0.5s ease;
         -o-transition: all 0.5s ease;
@@ -557,7 +587,7 @@
         font-size: 1px;
         -webkit-transform: skewY(-3deg);
         transform: skewY(-3deg);
-        z-index: 1;
+        z-index: 11;
         position: relative;
         margin: 0px;
     }
@@ -584,7 +614,7 @@
         z-index: 40;
         position: relative;
         margin: 0px;
-        margin-top: -100px;
+        margin-top: -50px;
     }
     
     .kosina-map-top {
@@ -635,10 +665,23 @@
         margin-top: 200px;
         -webkit-transform: skewY(3deg);
         transform: skewY(3deg);
-        z-index: 150;
+        z-index: 10;
         position: relative;
         margin: 0px;
         margin-bottom: -200px;
+    }
+    
+    .kosina-video-production-bot {
+        display: inline-block;
+        background-color: #fff;
+        height: 200px;
+        font-size: 1px;
+        margin-top: 200px;
+        -webkit-transform: skewY(3deg);
+        transform: skewY(3deg);
+        z-index: 150;
+        position: relative;
+        margin: 0px;
     }
     
     .display-1,
@@ -1001,7 +1044,7 @@
         background: transparent;
         position: relative;
         z-index: 101;
-        width: 100%px;
+        width: 100%;
         height: 50rem;
         /* your iframe height */
         top: 50rem;
@@ -1102,10 +1145,12 @@
     p.lead,
     .lead p {
         text-align: center;
-        color: #0074d9;
+        color: #fff;
         font-size: 1.07rem;
         font-weight: 300;
         margin-bottom: 2.3125rem;
+        position: relative;
+        z-index: 50;
     }
     
     a:hover {
@@ -1134,6 +1179,76 @@
         transition: all 0.5s ease;
     }
     
+    .btn-blue-color-big {
+        border-radius: 2px !important;
+        background: #0074d9;
+        border: 1px solid #0074d9;
+        color: #fff;
+        padding: 20px 30px;
+    }
+    
+    .btn-blue-color-big .fa {
+        font-size: 20px !important;
+        margin: 0 10px !important;
+    }
+    
+    .btn-blue-color-big:hover {
+        border: 1px solid #0074d9;
+        color: #0074d9;
+        background: transparent;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    .btn-blue-color-header {
+        border-radius: 2px !important;
+        background: #0074d9;
+        border-radius: 40px;
+        border: 1px solid #0074d9;
+        padding: 10px 25px;
+        color: #fff;
+        min-width: 180px;
+    }
+    
+    .btn-blue-color-header:hover {
+        border: 1px solid #fff;
+        color: #fff;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    .btn-blue-color-header .fa {
+        padding-right: 10px;
+    }
+    
+    .btn-white-color-3dvr {
+        border-radius: 2px !important;
+        background: #fff;
+        border-radius: 40px;
+        border: 1px solid #fff;
+        padding: 10px 25px;
+        color: #0074d9;
+        min-width: 180px;
+    }
+    
+    .btn-white-color-3dvr:hover {
+        border: 1px solid #fff;
+        color: #fff;
+        background-color: transparent;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    .btn-white-color-3dvr .fa {
+        padding-right: 10px;
+    }
+    
     .btn-center-services {
         margin: auto;
         display: block;
@@ -1153,17 +1268,193 @@
         margin-top: 100px;
     }
     
+    .video360 {
+        margin: auto;
+    }
+    
     .btn-blue-portfolio {
         border-radius: 4px !important;
         background: transparent;
         border-radius: 40px;
         padding: 10px 24px;
-        border: 1px solid #fff;
-        color: #fff;
+        border: 1px solid #0074d9;
+        color: #0074d9;
     }
     
     .btn-blue-portfolio:hover {
         border: 1px solid #0074d9;
         color: #fff;
         background: #0074d9;
+    }
+    
+    .services-overlay {
+        position: relative;
+        z-index: 2;
+    }
+    
+    .below-services {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgb(34, 34, 34);
+        opacity: 0.65;
+    }
+    
+    .white-text {
+        color: #fff;
+    }
+    
+    .contact-top {
+        margin-top: 100px;
+    }
+    
+    #contentvr {
+        padding: 80px 0;
+        min-height: 300px;
+        width: 100%;
+        background-color: #0074d9;
+        background: linear-gradient(135deg, #0074d9 60%, #fff 40%);
+    }
+    
+    #contentvr .row {
+        margin: 0px;
+        margin-left: -15px;
+    }
+    
+    #contentvr h1 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    
+    #contentvr h2 {
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    #contentvr p {
+        color: #fff;
+        font-size: 14px;
+    }
+    
+    #contentvr img {
+        margin-top: 10%;
+        width: 100%;
+    }
+    
+    #content3d {
+        padding: 100px 0;
+        min-height: 600px;
+        width: 100%;
+        background-image: url(../images/content8.jpg);
+    }
+    
+    #content3d h1 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    
+    #content3d h2 {
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    #content3d p {
+        color: #fff;
+        font-size: 14px;
+    }
+    
+    #contentvr-white {
+        height: 100%;
+        width: 100%;
+        border-top: 100% solid blue;
+        border-left: 80% solid transparent;
+    }
+    
+    .spacer {
+        margin-top: 200px;
+    }
+    
+    .navbar-float-right {
+        float: right;
+    }
+    
+    .text-align-center {
+        text-align: center;
+    }
+    
+    .margin-auto {
+        margin: auto;
+    }
+    
+    button.selected {
+        border: 1px solid #0074d9;
+        color: #fff;
+        background: #0074d9;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    .margin-auto {
+        margin: auto;
+    }
+    
+    .text-align-center {
+        text-align: center;
+    }
+    
+    .video-productio-angle {
+        padding: 80px 0;
+        min-height: 300px;
+        width: 100%;
+        background-color: #0074d9;
+        background: linear-gradient(135deg, #0074d9 60%, #fff 40%);
+    }
+    
+    .samsung-intro-text {
+        text-align: start;
+        color: #333;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .margin-top-50 {
+        margin-top: 50px;
+    }
+    
+    .portfoliosub-icon-margin {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .portfoliosub-spacer {
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+    
+    .portfolio-margin-left {
+        margin-left: 7%;
+    }
+    
+    .portfolio-hover {
+        vertical-align: middle;
+        height: auto;
+        width: 100%;
+        position: absolute;
+        background-color: #0074d9;
+        visibility: hidden;
+    }
+    
+    .portfolio-hover h3 {
+        color: #fff;
+        font-size: 25px;
+        text-align: center;
+        padding-top: auto;
     }

@@ -7,22 +7,18 @@
     margin-top: -125px;
     z-index: 48;
     position: relative;
+    padding-top: 250px;
 }
 
 #services1 .service-box {
     padding: 30px 15px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    border: 1px solid #0074d9;
     min-height: 400px;
 }
 
 #services1 .service-box:hover {
     padding: 30px 15px;
     background-color: #0074d9;
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -423,7 +419,7 @@
 /* services9 */
 
 #services9 {
-    padding: 150px 0 150px 0;
+    padding: 200px 0 200px 0;
     position: relative;
     background-position: center center;
     background-attachment: scroll;
@@ -465,17 +461,13 @@
     width: 30%;
 }
 
-#services9 .services-box .icon {
+#services9 .services-box .fa {
     width: 40%;
-    height: 40%;
     border-radius: 150px;
     margin: 0 auto;
     position: absolute;
-    top: -30%;
+    top: -20%;
     left: 30%;
-}
-
-#services9 .services-box .icon span {
     font-size: 60px;
     color: #fff;
 }
