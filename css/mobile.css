@@ -1,0 +1,106 @@
+        @media only screen and (max-width: 480px) {
+            #content32 .phone img {
+                width: 100%;
+            }
+            #intro3 h2,
+            #intro3 h3,
+            #intro3 h5 {
+                padding-top: 0px;
+            }
+            #intro3 {
+                padding: 0px 0;
+            }
+            #intro3 p {
+                padding-bottom: 40px;
+            }
+            #services1 .service-box {
+                margin-bottom: 20px;
+            }
+            #services9 {
+                background-color: #0074d9;
+                background-image: none;
+                padding: 150px 0 100px 0;
+            }
+            .below-services {
+                background-color: transparent;
+            }
+            .culexidea {
+                margin-bottom: 80px;
+            }
+            .portfolioicon {
+                margin: 0 auto;
+                display: table !important;
+                padding: 20px;
+                margin-top: 70px;
+                height: 50px;
+            }
+            .portfoliosection {
+                min-height: 0;
+            }
+            .no-spacer {
+                margin-top: 0;
+            }
+            /*------------------------------Ivan-----------------------------*/
+            #intro-production {
+                padding: 0;
+            }
+            .samsung-intro-text {
+                margin-bottom: 50px;
+            }
+            #content25 {
+                margin-top: 70px;
+            }
+            #content25 .box-large img {
+                padding: 15px;
+            }
+            .small-text-content {
+                text-align: -webkit-center;
+            }
+            #content25 .box-small img {
+                padding: 40px;
+                height: 100%;
+            }
+            #content23 {
+                margin-top: 20px;
+            }
+            #content25 .box-text-bg {
+                margin-top: 5px !important;
+            }
+            .content25-textalign {
+                margin-bottom: 0px;
+            }
+            .prettyPhoto-margin-top {
+                margin-top: 25px !important;
+            }
+            .kulendayz-video {
+                margin-top: 70px;
+            }
+            .kulendayz-container {
+                padding: 0;
+            }
+            .embed-responsive {
+                overflow: inherit !important;
+            }
+            #content29 {
+                margin-top: 150px;
+            }
+            .samsung-png-margin {
+                margin-top: 60px;
+            }
+            #content29 .item {
+                margin-bottom: 0px;
+            }
+            .nopaddingnomargin {
+                padding: 15px !important;
+                padding-top: 5px !important;
+            }
+            .mobile-contact {
+                width: 100%;
+            }
+            .mobile-no-width {
+                width: 0;
+            }
+            .culex-black-footer {
+                margin-top: 100px
+            }
+        }

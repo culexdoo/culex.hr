@@ -1184,7 +1184,6 @@
 }
 
 #portfolio1 .tile {
-    opacity: 0.7;
     -webkit-transform: scale(0);
     transform: scale(0);
     -webkit-transition: all 350ms ease;
@@ -1193,10 +1192,19 @@
 
 #portfolio1 .tile:hover .portfolio-hover {
     visibility: visible;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    background: rgba(255, 255, 255, 0.5);
+    display: block !important;
 }
 
 #portfolio1 .scale-anm {
     transform: scale(1);
+    padding: 5px;
 }
 
 #portfolio1 .tile img {
@@ -1204,18 +1212,19 @@
     width: 100%;
     height: auto;
     margin-bottom: 1rem;
-    display: table;
 }
 
 #portfolio1 .title h3 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 30px;
+    font-weight: 900;
+    color: #333;
 }
 
 .tile p {
-    color: #fff;
+    color: #000;
     visibility: hidden;
     font-size: 18px;
     font: bold;
@@ -1223,7 +1232,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #0074d9;
     width: 100%;
     text-align: center;
 }
